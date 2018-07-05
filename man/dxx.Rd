@@ -5,7 +5,7 @@
 \alias{pxx}
 \alias{qxx}
 \alias{rxx}
-\title{dxx}
+\title{La distribucion xx}
 \usage{
 dxx(x)
 
