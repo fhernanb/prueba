@@ -13,6 +13,7 @@ multi <- function(x, y) {
   res <- myaux(x, y)
   res
 }
+#' @rdname multi
 #' @export
 myaux <- function(x, y) {
   x * y

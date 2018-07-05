@@ -2,9 +2,12 @@
 % Please edit documentation in R/anidada.R
 \name{multi}
 \alias{multi}
+\alias{myaux}
 \title{multi}
 \usage{
 multi(x, y)
+
+myaux(x, y)
 }
 \arguments{
 \item{x}{A number.}
