@@ -5,7 +5,7 @@
 \alias{pxx}
 \alias{qxx}
 \alias{rxx}
-\title{distri}
+\title{dxx}
 \usage{
 dxx(x)
 

@@ -1,4 +1,4 @@
-#' distri
+#' La distribucion xx
 #' 
 #' Esta funcion sirve de ejemplo para documentar distribuciones.
 #' 
