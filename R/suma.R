@@ -24,7 +24,7 @@ suma <- function(x, y) {
 #'
 #' @param x Object of class \dQuote{sumita}.
 #' @param col color for the plot.
-#' @param las logical value for the plot.
+#' @param las value for the plot.
 #' @param ... Other plotting parameters to affect the plot.
 #' @return None. Function produces a plot
 #' @author Rob J Hyndman & Mitchell O'Hara-Wild
@@ -37,6 +37,6 @@ suma <- function(x, y) {
 #'
 #' @importFrom graphics plot
 #' @export
-plot.sumita <- function(x, col, las, ...) {
+plot.sumita <- function(x, col='red', las=1, ...) {
   plot(x=1:5, y=5:1, col=col, las=las)
 }
