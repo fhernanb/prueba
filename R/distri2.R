@@ -1,6 +1,9 @@
 #' Basic arithmetic
 #'
 #' @param x,y numeric vectors.
+#' @examples 
+#' suma1(5)
+#' multi1(8)
 #' @name aritmetica
 NULL
 #' @rdname aritmetica

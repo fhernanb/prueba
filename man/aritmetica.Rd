@@ -16,3 +16,7 @@ multi1(y)
 \description{
 Basic arithmetic
 }
+\examples{
+suma1(5)
+multi1(8)
+}
