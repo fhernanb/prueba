@@ -15,7 +15,7 @@ add(x, y)
 The sum of \code{x} and \code{y}.
 }
 \description{
-Add together two numbers.
+Esta funcion sirve para obtener la suma de dos numeros reales.
 }
 \examples{
 add(1, 1)

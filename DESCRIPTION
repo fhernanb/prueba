@@ -3,9 +3,9 @@ Type: Package
 Title: What the package does (short line)
 Version: 1.0
 Date: 2018-07-03
-Author: Who wrote it
+Authors@R: person("Freddy", "Hernandez", email = "fhernanb@unal.edu.co", role = c("aut", "cre"))
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: Este es un paquete para hacer pruebas solamente.
 License: GPL-3
 RoxygenNote: 6.0.1
 Suggests: testthat
