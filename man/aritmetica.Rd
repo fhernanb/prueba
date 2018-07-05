@@ -6,9 +6,9 @@
 \alias{multi1}
 \title{Basic arithmetic}
 \usage{
-suma1(x, y)
+suma1(x)
 
-multi1(x, y)
+multi1(y)
 }
 \arguments{
 \item{x, y}{numeric vectors.}
