@@ -1,6 +1,6 @@
 Package: prueba
 Type: Package
-Title: What the package does (short line)
+Title: Paquete para hacer mis pruebas.
 Version: 1.0
 Date: 2018-07-03
 Authors@R: person("Freddy", "Hernandez", email = "fhernanb@unal.edu.co", role = c("aut", "cre"))

@@ -1,4 +1,4 @@
-#' Add together two numbers.
+#' suma
 #' 
 #' Esta funcion sirve para obtener la suma de dos numeros reales.
 #' 
@@ -6,11 +6,11 @@
 #' @param y A number.
 #' @return The sum of \code{x} and \code{y}.
 #' @examples
-#' add(1, 1)
-#' add(10, 1)
+#' suma(1, 1)
+#' suma(10, 1)
 #' @export
-add <- function(x, y) {
+suma <- function(x, y) {
   res <- x + y
-  class(res) <- 'med'
+  class(res) <- 'sumita'
   res
 }
