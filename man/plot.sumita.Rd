@@ -4,14 +4,14 @@
 \alias{plot.sumita}
 \title{Plot components from ETS model}
 \usage{
-\method{plot}{sumita}(x, object, range, ...)
+\method{plot}{sumita}(x, col, las, ...)
 }
 \arguments{
 \item{x}{Object of class \dQuote{sumita}.}
 
-\item{object}{Object of class \dQuote{sumita}.}
+\item{col}{color for the plot.}
 
-\item{range}{Logical indicating if each plot.}
+\item{las}{logical value for the plot.}
 
 \item{...}{Other plotting parameters to affect the plot.}
 }
