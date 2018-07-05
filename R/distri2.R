@@ -1,10 +1,12 @@
 #' Basic arithmetic
 #'
 #' @param x,y numeric vectors.
-#' @name arith
+#' @name aritmetica
 NULL
-#' @rdname arith
-add <- function(x, y) x + y
+#' @rdname aritmetica
+#' @export
+suma1 <- function(x, y) x + y
 
-#' @rdname arith
-times <- function(x, y) x * y
+#' @rdname aritmetica
+#' @export
+multi1 <- function(x, y) x * y
