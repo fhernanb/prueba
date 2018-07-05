@@ -24,9 +24,7 @@ suma <- function(x, y) {
 #'
 #' @param x Object of class \dQuote{sumita}.
 #' @param object Object of class \dQuote{sumita}.
-#' @param range.bars Logical indicating if each plot should have a bar at its
-#' right side representing relative size. If NULL, automatic selection takes
-#' place.
+#' @param range Logical indicating if each plot.
 #' @param ... Other plotting parameters to affect the plot.
 #' @return None. Function produces a plot
 #' @author Rob J Hyndman & Mitchell O'Hara-Wild
@@ -37,7 +35,8 @@ suma <- function(x, y) {
 #' fit <- suma(10, 5)
 #' plot(fit)
 #'
+#' @importFrom graphics plot
 #' @export
-plot.sumita <- function(x, ...) {
+plot.sumita <- function(x, object, range, ...) {
   plot(x=1:5, y=5:1)
 }

@@ -3,3 +3,4 @@
 S3method(plot,sumita)
 export(loglik)
 export(suma)
+importFrom(graphics,plot)

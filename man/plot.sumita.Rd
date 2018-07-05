@@ -4,18 +4,16 @@
 \alias{plot.sumita}
 \title{Plot components from ETS model}
 \usage{
-\method{plot}{sumita}(x, ...)
+\method{plot}{sumita}(x, object, range, ...)
 }
 \arguments{
 \item{x}{Object of class \dQuote{sumita}.}
 
-\item{...}{Other plotting parameters to affect the plot.}
-
 \item{object}{Object of class \dQuote{sumita}.}
 
-\item{range.bars}{Logical indicating if each plot should have a bar at its
-right side representing relative size. If NULL, automatic selection takes
-place.}
+\item{range}{Logical indicating if each plot.}
+
+\item{...}{Other plotting parameters to affect the plot.}
 }
 \value{
 None. Function produces a plot
