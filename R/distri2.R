@@ -9,4 +9,4 @@ suma1 <- function(x) x + 10
 
 #' @rdname aritmetica
 #' @export
-multi1 <- function(y) x * 10
+multi1 <- function(y) y * 10
