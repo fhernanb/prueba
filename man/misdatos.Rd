@@ -4,17 +4,13 @@
 \name{misdatos}
 \alias{misdatos}
 \title{Mis datos de prueba}
-\format{Time series data}
-\source{
-Australian Bureau of Statistics.
-}
+\format{A data frame with 3 rows and 2 variables:
+\describe{
+  \item{estatura}{altura de las personas en centimetros}
+  \item{peso}{peso corporal de las personas en kilogramos}
+}}
 \usage{
 misdatos
-}
-\arguments{
-\item{estatura}{altura de las personas en centimetros.}
-
-\item{peso}{peso corporal de las personas en kilogramos.}
 }
 \description{
 Estos son uno datos de prueba para mostrarle a Deisy como se crean.
