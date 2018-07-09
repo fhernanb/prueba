@@ -6,6 +6,8 @@ Date: 2018-07-03
 Authors@R: person("Freddy", "Hernandez", email = "fhernanb@unal.edu.co", role = c("aut", "cre"))
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: Este es un paquete para hacer pruebas solamente.
+Depends:
+    R (>= 2.10)
 License: GPL-3
 RoxygenNote: 6.0.1
 Suggests: testthat
