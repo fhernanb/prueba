@@ -8,6 +8,7 @@
 #' @examples
 #' resta(1, 1)
 #' resta(10, 1)
+#' @importFrom stats var
 #' @export
 resta <- function(x, y) {
   varianza <- var(c(x, y))
