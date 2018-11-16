@@ -18,6 +18,6 @@ The sum of \code{x} and \code{y}.
 Esta funcion sirve para obtener la suma de dos numeros reales.
 }
 \examples{
-suma(1, 1) + hola
+suma(1, 1)
 suma(10, 1)
 }
