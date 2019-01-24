@@ -8,9 +8,6 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: Este es un paquete para hacer pruebas solamente.
 Depends:
     R (>= 2.10)
-Imports:
-    asbio,
-    tcltk
 License: GPL-3
 RoxygenNote: 6.1.1
 Suggests: testthat
