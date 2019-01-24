@@ -9,7 +9,8 @@ Description: Este es un paquete para hacer pruebas solamente.
 Depends:
     R (>= 2.10)
 Imports:
-    asbio
+    asbio,
+    tcltk
 License: GPL-3
 RoxygenNote: 6.1.1
 Suggests: testthat
