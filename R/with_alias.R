@@ -19,14 +19,12 @@ add <- function(x, y) {
 #' Esta funcion saluda en forma 1
 #' 
 #' @param nombre el nombre del usuario
-#' @example 
+#' @examples
 #' hola1('olga')
-#' 
 #' @export
 hola1 <- function(nombre) {
   paste('hola ', nombre, ' buen dia')
 }
-#'
 #' @rdname hola1
 #' @export
 hola2 <- function(nombre) {

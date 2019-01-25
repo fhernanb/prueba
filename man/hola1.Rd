@@ -15,3 +15,6 @@ hola2(nombre)
 \description{
 Esta funcion saluda en forma 1
 }
+\examples{
+hola1('olga')
+}

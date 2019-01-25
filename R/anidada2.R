@@ -13,7 +13,7 @@ multi2 <- function(x, y) {
   res <- myaux2(x, y)
   res
 }
-#'
+
 myaux2 <- function(x, y) {
   x * y
 }
