@@ -23,4 +23,5 @@ Esta funcion sirve para obtener la multiplicacion de dos numeros reales.
 \examples{
 multi(1, 1)
 multi(10, 1)
+asbio::shade.norm(x=1.2,sigma=1,mu=0,tail="lower")
 }
