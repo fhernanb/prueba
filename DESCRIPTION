@@ -7,7 +7,6 @@ Authors@R: person("Freddy", "Hernandez", email = "fhernanb@unal.edu.co", role = 
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: Este es un paquete para hacer pruebas solamente.
 Depends: R (>= 2.15.1)
-Imports: asbio
 License: GPL-3
 RoxygenNote: 6.1.1
 Suggests: testthat
