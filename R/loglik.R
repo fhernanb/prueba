@@ -17,6 +17,12 @@
 #' y <- rnorm(n=100, mean=170, sd=10)
 #' loglik(y, dist='dnorm', param=list(mean=170, sd=10))
 #' 
+#' # Un ejemplo invocando los datos de este paquete
+#' data(condom)
+#' dim(condom)
+#' 
+#' data(misdatos)
+#' misdatos
 #'
 #' @export
 #'
