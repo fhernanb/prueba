@@ -3,4 +3,6 @@
 [![Licence](https://img.shields.io/badge/licence-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 # prueba
-repo de prueba :fire:
+Repo de prueba
+
+You can visit the [package website](https://fhernanb.github.io/prueba/index.html) to explore the vignettes (articles) and function reference. 
