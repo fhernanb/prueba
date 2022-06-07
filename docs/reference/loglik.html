@@ -17,7 +17,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">prueba</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9000</span>
       </span>
     </div>
 
@@ -62,16 +62,16 @@
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="co"># For Poisson distribution</span></span>
 <span class="r-in"><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Poisson.html" class="external-link">rpois</a></span><span class="op">(</span>n<span class="op">=</span><span class="fl">50</span>, lambda<span class="op">=</span><span class="fl">4.5</span><span class="op">)</span></span>
 <span class="r-in"><span class="fu">loglik</span><span class="op">(</span><span class="va">x</span>, dist<span class="op">=</span><span class="st">'dpois'</span>, param<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>lambda<span class="op">=</span><span class="fl">4</span><span class="op">)</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -106.2678</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -117.4659</span>
 <span class="r-in"><span class="fu">loglik</span><span class="op">(</span><span class="va">x</span>, dist<span class="op">=</span><span class="st">'dpois'</span>, param<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>lamb<span class="op">=</span><span class="fl">4.5</span><span class="op">)</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -106.0623</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -117.7315</span>
 <span class="r-in"><span class="fu">loglik</span><span class="op">(</span><span class="va">x</span>, dist<span class="op">=</span><span class="st">'dpois'</span>, param<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>lambda<span class="op">=</span><span class="fl">5</span><span class="op">)</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -108.5151</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -120.6058</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co"># For normal distribution</span></span>
 <span class="r-in"><span class="va">y</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html" class="external-link">rnorm</a></span><span class="op">(</span>n<span class="op">=</span><span class="fl">100</span>, mean<span class="op">=</span><span class="fl">170</span>, sd<span class="op">=</span><span class="fl">10</span><span class="op">)</span></span>
 <span class="r-in"><span class="fu">loglik</span><span class="op">(</span><span class="va">y</span>, dist<span class="op">=</span><span class="st">'dnorm'</span>, param<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>mean<span class="op">=</span><span class="fl">170</span>, sd<span class="op">=</span><span class="fl">10</span><span class="op">)</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -382.094</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] -375.0528</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co"># Un ejemplo invocando los datos de este paquete</span></span>
 <span class="r-in"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">condom</span><span class="op">)</span></span>
