@@ -15,7 +15,7 @@ multi2 <- function(x, y) {
 }
 #' @importFrom stats rnorm
 myaux2 <- function(x, y) {
-  #muestra <- rnorm(n=10)
-  x * y
+  muestra <- rnorm(n=10)
+  x * y + mean(muestra)
 }
 
