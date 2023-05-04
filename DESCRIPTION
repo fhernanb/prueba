@@ -8,6 +8,6 @@ Description: Es paquete no sirve para nada, solo para hacer mis pruebas con paqu
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 LazyData: true
 Depends: R (>= 2.10)
