@@ -2,6 +2,6 @@
 
 # prueba
 
-Repositorio de pruebas.
+Repositorio de pruebassss.
 
 You can visit the [package website](https://fhernanb.github.io/prueba/index.html) to explore the vignettes (articles) and function reference.
