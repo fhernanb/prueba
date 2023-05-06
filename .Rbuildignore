@@ -2,7 +2,7 @@
 Makefile
 ^prueba\.Rproj$
 ^\.Rproj\.user$
-^\.travis\.yml$
 ^docs$
 ^auxiliar$
 ^LICENSE\.md$
+^\.github$
