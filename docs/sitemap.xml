@@ -22,6 +22,9 @@
     <loc>/reference/aritmetica.html</loc>
   </url>
   <url>
+    <loc>/reference/colegio.html</loc>
+  </url>
+  <url>
     <loc>/reference/condom.html</loc>
   </url>
   <url>
@@ -53,5 +56,8 @@
   </url>
   <url>
     <loc>/reference/suma.html</loc>
+  </url>
+  <url>
+    <loc>/reference/suma_tres.html</loc>
   </url>
 </urlset>
