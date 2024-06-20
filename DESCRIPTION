@@ -15,4 +15,6 @@ LinkingTo:
     Rcpp
 Imports: 
     Rcpp,
-    Rdpack
+    Rdpack,
+    gamlss,
+    gamlss.dist
