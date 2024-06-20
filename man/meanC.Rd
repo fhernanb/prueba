@@ -6,6 +6,12 @@
 \usage{
 meanC(x)
 }
+\arguments{
+\item{x}{numeric vector}
+}
+\value{
+la media.
+}
 \description{
 Media de un vector usando C++.
 }

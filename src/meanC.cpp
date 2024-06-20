@@ -2,7 +2,10 @@
 using namespace Rcpp;
 
 //' Media de un vector usando C++.
- // [[Rcpp::export]]
+//' @param x numeric vector
+//' @export
+//' @return la media.
+// [[Rcpp::export]]
  double meanC(NumericVector x) {
    int n = x.size();
    double total = 0;
