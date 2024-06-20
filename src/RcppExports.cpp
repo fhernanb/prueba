@@ -21,9 +21,21 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// varC
+double varC(NumericVector x);
+RcppExport SEXP _prueba_varC(SEXP xSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< NumericVector >::type x(xSEXP);
+    rcpp_result_gen = Rcpp::wrap(varC(x));
+    return rcpp_result_gen;
+END_RCPP
+}
 
 static const R_CallMethodDef CallEntries[] = {
     {"_prueba_meanC", (DL_FUNC) &_prueba_meanC, 1},
+    {"_prueba_varC", (DL_FUNC) &_prueba_varC, 1},
     {NULL, NULL, 0}
 };
 

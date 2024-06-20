@@ -9,3 +9,11 @@ meanC <- function(x) {
     .Call('_prueba_meanC', PACKAGE = 'prueba', x)
 }
 
+#' Varianza de un vector usando C++.
+#' @param x numeric vector
+#' @export
+#' @return la varianza.
+varC <- function(x) {
+    .Call('_prueba_varC', PACKAGE = 'prueba', x)
+}
+
