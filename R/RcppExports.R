@@ -2,8 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #' Media de un vector usando C++.
-NULL
-
 meanC <- function(x) {
     .Call('_prueba_meanC', PACKAGE = 'prueba', x)
 }
